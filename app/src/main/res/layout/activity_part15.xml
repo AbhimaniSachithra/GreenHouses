@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:textAlignment="gravity"
     app:layout_anchorGravity="center|top"
-    tools:context=".Part5">
+    tools:context=".Part15">
 
     <TextView
         android:id="@+id/textView10"

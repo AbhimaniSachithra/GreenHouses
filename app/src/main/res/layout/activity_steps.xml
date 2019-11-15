@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonHome"
         android:layout_width="140dp"
         android:layout_height="36dp"
         android:layout_marginStart="8dp"
@@ -22,10 +22,11 @@
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.042"
+        android:onClick="goToHome" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonPart11"
         android:layout_width="338dp"
         android:layout_height="72dp"
         android:layout_marginStart="32dp"
@@ -34,10 +35,11 @@
         android:text="Part1:Choosing a Location"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="goToPart11"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonPart21"
         android:layout_width="354dp"
         android:layout_height="61dp"
         android:layout_marginStart="8dp"
@@ -46,15 +48,16 @@
         android:gravity="center"
         android:text="Part2:Choosing a Structure"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPart31"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.634"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.405" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPart11"
+        app:layout_constraintVertical_bias="0.405"
+        android:onClick="goToPart21"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonPart31"
         android:layout_width="331dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -63,12 +66,13 @@
         android:gravity="center"
         android:text="Part3:Choosing Covering Materials"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPart41"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart31"/>
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonPart41"
         android:layout_width="356dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
@@ -79,10 +83,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="426dp" />
+        tools:layout_editor_absoluteY="426dp"
+        android:onClick="goToPart41"/>
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/buttonPart51"
         android:layout_width="372dp"
         android:layout_height="46dp"
         android:layout_marginStart="28dp"
@@ -91,13 +96,14 @@
         android:gravity="center"
         android:text="Part5:Controlling Temperature"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPart61"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.781" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPart41"
+        app:layout_constraintVertical_bias="0.781"
+        android:onClick="goToPart51"/>
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttonPart61"
         android:layout_width="365dp"
         android:layout_height="75dp"
         android:layout_marginStart="32dp"
@@ -106,10 +112,11 @@
         android:text="Part6:Additional Greenhouse Planning"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart61"/>
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/buttonNextInSteps"
         android:layout_width="78dp"
         android:layout_height="38dp"
         android:layout_marginStart="8dp"
@@ -123,6 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.867"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonPart61"
+        app:layout_constraintVertical_bias="0.685"
+        android:onClick="goToNextInSteps"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

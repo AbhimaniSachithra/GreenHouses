@@ -1,11 +1,10 @@
 package com.example.greenhouses;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Steps extends AppCompatActivity {
 
@@ -14,32 +13,33 @@ public class Steps extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_steps);
 
+    }
 
+    public void goToHome(View view) {
+    }
 
-        Button button2 = (Button) findViewById(R.id.button2);
-        Button button3 = (Button) findViewById(R.id.button3);
-        Button button4 = (Button) findViewById(R.id.button4);
-        Button button5 = (Button) findViewById(R.id.button5);
-        Button button6 = (Button) findViewById(R.id.button6);
-        Button button7 = (Button) findViewById(R.id.button7);
-        Button button8 = (Button) findViewById(R.id.button8);
-        Button button9 = (Button) findViewById(R.id.button9);
+    public void goToPart11(View view) {
+        Intent goToPart11 = new Intent(this, Part11.class);
+        startActivity(goToPart11);
+    }
 
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Steps.this, MainActivity.class));
+    public void goToPart21(View view) {
+        Intent goToPart21 = new Intent(this, Part21.class);
+        startActivity(goToPart21);
+    }
 
-            }
-        });
+    public void goToPart31(View view) {
+    }
 
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Steps.this, Part1.class));
+    public void goToPart41(View view) {
+    }
 
-            }
-        });
+    public void goToPart51(View view) {
+    }
 
+    public void goToPart61(View view) {
+    }
+
+    public void goToNextInSteps(View view) {
     }
 }
