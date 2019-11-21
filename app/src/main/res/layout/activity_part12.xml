@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".part2Activity">
+    tools:context=".Part12">
 
     <TextView
         android:id="@+id/textView2"
@@ -42,16 +42,17 @@
         android:layout_height="334dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="48dp"
         android:foregroundGravity="top|center_vertical|center|center_horizontal"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/ivProfileBg"
-            android:layout_width="250dp"
-            android:layout_height="240dp"
+            android:layout_width="262dp"
+            android:layout_height="197dp"
             android:layout_gravity="center|top"
             android:gravity="center|top"
             app:srcCompat="@drawable/pic2" />
@@ -59,20 +60,21 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="206dp"
-        android:layout_height="58dp"
+        android:layout_width="228dp"
+        android:layout_height="53dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Give preferences to locations that have morning sun over afternoon sun."
-        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="320dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/buttonNextInPart12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEXT"
         tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="632dp" />
+        tools:layout_editor_absoluteY="632dp"
+        android:onClick="goToPart13"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part63">
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step3"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="225dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="80dp"
+        android:text="Slatted tables can be used in the meantime, since they will allow water to drain through the table and into the gravel.
+                     *If possible, construct the beds to the primary gardener's height to limit ergonomic problems."
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        tools:layout_editor_absoluteX="91dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToSteps"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout25"
+        android:layout_width="291dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="262dp"
+            android:layout_height="226dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part27" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="254dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Construct raised beds inside your greenhouse."
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="336dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

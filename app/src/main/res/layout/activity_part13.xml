@@ -30,7 +30,8 @@
         android:layout_height="wrap_content"
         android:text="NEXT"
         tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="664dp" />
+        tools:layout_editor_absoluteY="664dp"
+        android:onClick="goToPart14" />
 
     <FrameLayout
         android:layout_width="360dp"
@@ -46,8 +47,8 @@
 
         <EditText
             android:id="@+id/editText4"
-            android:layout_width="260dp"
-            android:layout_height="87dp"
+            android:layout_width="246dp"
+            android:layout_height="72dp"
             android:layout_gravity="bottom|center"
             android:ems="10"
             android:inputType="textPersonName"

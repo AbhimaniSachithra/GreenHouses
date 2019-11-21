@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part54">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step4"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="273dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="88dp"
+        android:text="If you can afford to outfit your greenhouse with its own temperature control system, then you can set it up to grow almost anything.
+                     *Employ an electrician and a contractor to install your system.
+                     *It may need regular maintenance to ensure it can handle ventilation and heating in the winter.
+"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart55"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout21"
+        android:layout_width="293dp"
+        android:layout_height="289dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="253dp"
+            android:layout_height="207dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part23" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Install a forced-air system,if you are using a glass-frame greenhouse."
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="343dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

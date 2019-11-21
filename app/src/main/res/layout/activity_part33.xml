@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part33">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step3"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout11"
+        android:layout_width="333dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="146dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="296dp"
+            android:layout_height="217dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part13" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="You could buy fiberglass if you are building a framed greenhouse, you can save money by choosing fiberglass over glass as the roof construction can be lighter of construction. " />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="270dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Fiberglass will turn yellow and lose transparency in a few years. Acrylic is more expensive but has higher transparency and stays clear upto 10 years.
+                     *Choose clear fiberglass or even better Acrylic.
+                     *It will need a new coat of resin every 10 to 15 years.
+                     *Invest in higher-grade fiberglass.Light transmission is greatly reduced on low-grade fiberglass or just buy Acrylic. This will save you approximately 25% in cost compared to glass and is easier to work with."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.575"
+        android:onClick="goToPart34"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

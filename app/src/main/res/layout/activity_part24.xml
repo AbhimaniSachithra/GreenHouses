@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part24" >
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step4"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout7"
+        android:layout_width="325dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="117dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            app:srcCompat="@drawable/part9" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:foregroundGravity="bottom"
+            android:gravity="bottom|center_horizontal"
+            android:inputType="textPersonName"
+            android:text="Build a Quonset frame." />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="295dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="8dp"
+        android:text="This is a domed ceiling that can be made with steel supports or PVC tubing (PVC does contains several carcinogenic estrogen mimickers that are water soluble, Idpe tubing is more expensive but a saver alternative.).
+                     *The domed shape means there is less head and storage space that rectangular models.
+                     *This shape can be built with the little cost; however, the less expensive the material, the less sturdy it is likely to be. "
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintVertical_bias="0.474"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginBottom="44dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart25"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,35 +8,70 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="120dp"
-        android:layout_height="39dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step3"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
 
     <FrameLayout
-        android:layout_width="379dp"
-        android:layout_height="312dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="110dp">
+        android:id="@+id/frameLayout6"
+        android:layout_width="355dp"
+        android:layout_height="290dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="117dp">
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="348dp"
+            android:layout_height="202dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part8" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:ems="10"
+            android:gravity="bottom|center_vertical"
+            android:inputType="textPersonName"
+            android:text="Make a lean-to." />
     </FrameLayout>
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="325dp"
         android:layout_height="128dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="64dp"
+        android:text="If you have chosen an area against a building, you may as well construct a simple lean structure that uses the remaining wall as support.
+                     *If you have a brick structure, the heat from the building can help you keep a steady, warm temperature.
+                     *This is a fairly easy structure to make yourself. You can support it with rebar, wooden beams and fewer supports that an offset building."
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="122dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="624dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart24"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

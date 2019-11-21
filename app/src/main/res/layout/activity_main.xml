@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <Button
-        android:id="@+id/buttonNext"
+        android:id="@+id/buttonNextInMain"
         android:layout_width="113dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"

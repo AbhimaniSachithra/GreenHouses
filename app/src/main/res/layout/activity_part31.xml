@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part31">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="Step1"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout9"
+        android:layout_width="361dp"
+        android:layout_height="363dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="127dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:srcCompat="@drawable/part11" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Use UV-stabilized polyethylene which is cheap but contains BPA's or the more expensive but non toxic LDPE grow tarps which last for longer. " />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="216dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="28dp"
+        android:text="It is UV-stabilized.
+                     *Plastic film has to be replaced every few years PET plastic has a shorter life expectancy then the non toxic LDPE plastic.
+                     *It must be washed occasionally.
+                     *It will not hold heat as well as glass, but is adequate for leantos, quonsets and small standalone framed greenhouses."
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="36dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart32"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

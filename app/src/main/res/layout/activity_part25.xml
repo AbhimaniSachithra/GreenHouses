@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part25">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step5"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout8"
+        android:layout_width="327dp"
+        android:layout_height="331dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="273dp"
+            android:layout_height="244dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part10" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pick a rigid frame." />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="266dp"
+        android:layout_height="101dp"
+        android:layout_marginEnd="64dp"
+        android:foundation="72dp"
+        android:text="With this design, you will need a foundation and a frame.Unless you are a designer, you will want to buy a plan for a greenhouseor employ someone to build it.
+                     *A rigid frame, post and rafter or A-frame greenhouse will need a foundation and a sturdy frame.
+                     *You will need the help of friends or employees to help you build a large framed greenhouse."
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.691"
+        android:onClick="goToSteps"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

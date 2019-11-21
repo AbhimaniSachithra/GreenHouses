@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part43">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="60dp"
+        android:text="Step3"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout15"
+        android:layout_width="368dp"
+        android:layout_height="367dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="141dp">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="290dp"
+            android:layout_height="254dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part17" />
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pour gravel on the ground in an even layer, after your supports are driven into the ground. " />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="8dp"
+        android:text="Small, loose gravel allows for extra drainage in a greenhouse environment.
+                     *Hire builders to pour concrete, if you need a foundation. They will need to bring in concrete forms and pour the floor of your greenhouse before it can be framed."
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout15"
+        app:layout_constraintVertical_bias="0.383"
+        tools:layout_editor_absoluteX="90dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToPart44"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

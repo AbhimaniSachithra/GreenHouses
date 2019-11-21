@@ -84,5 +84,6 @@
         app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintVertical_bias="0.719"
+        android:onClick="goToPart23"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part34">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Step4"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout12"
+        android:layout_width="280dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="103dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="246dp"
+            android:layout_height="217dp"
+            android:layout_gravity="center|top"
+            app:srcCompat="@drawable/part14" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Choose glass." />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="224dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="92dp"
+        android:text="This is the most attractive material, if you are building a greenhouse that will accentuate your house or garden.
+                     *Glass is very fragile and is expensive to replace when it breaks, but on the other side acrylic, fiberglass and polycarbonate needs replacing over time.
+                     *You must build a framed greenhouse with a foundation, any misalignment because of settling can cause damage.
+                     *Tempered glass is preferable because it is stronger than regular glass, consider using hardened glass for the roof. A 4mm thickness of float glass is suggested if you are in a area prone to hail.
+                     *If you are going to the expense of installing a glass greenhouse, you should consider bids from construction companies to ensure the foundation and frame can handle the weight.
+
+                     ***Greenhouse deconstruction companies can be a source of very cheap glass, second hand glass can be cheaper than new bought plastic variants."
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="goToSteps"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
